@@ -8,4 +8,4 @@ Todos os códigos são exemplos práticos de Data Science, e devem conter um có
 Contém:
 - Código python do modelo treinado.
 - Dataset dos veículos usados no treino/teste.
-- Um documento .txt falando um pouco sobre as variáveis.
+- Um documento .txt falando um pouco sobre as colunas/features.
