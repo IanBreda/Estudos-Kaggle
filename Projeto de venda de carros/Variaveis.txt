@@ -1,0 +1,45 @@
+''' 
+#Informações do dataset:
+Colunas (8): 
+['name', 'year', 'selling_price', 'km_driven', 'fuel', 'seller_type', 'transmission', 'owner']
+
+Informações de cada coluna:
+name, dtype: object
+year, dtype: float64 - [1992 ~ 2020]
+selling_price, dtype: float64 - [20.000 ~ 8.900.000]
+km_driven, dtype: float64 - [1 ~ 806.599]
+fuel, dtype: object - ['Petrol' 'Diesel' 'CNG' 'LPG' 'Electric']
+seller_type, dtype: object - ['Individual' 'Dealer' 'Trustmark Dealer']
+transmission, dtype: object - ['Manual' 'Automatic']
+owner, dtype: object - ['First Owner' 'Second Owner' 'Fourth & Above Owner' 'Third Owner' 'Test Drive Car']
+
+target = selling_price
+
+dtypes: int64(3), object(5)
+4340 entries, 0 to 4339
+isnull: 0
+
+fuel
+Diesel      2153
+Petrol      2123
+CNG           40
+LPG           23
+Electric       1
+
+seller_type
+Individual          3244
+Dealer               994
+Trustmark Dealer     102
+
+transmission
+Manual       3892
+Automatic     448
+
+owner
+First Owner             2832
+Second Owner            1106
+Third Owner              304
+Fourth & Above Owner      81
+Test Drive Car            17
+
+'''
